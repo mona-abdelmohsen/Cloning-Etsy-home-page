@@ -1,0 +1,310 @@
+  div#nav{
+    padding: 15px;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  div#text h1{
+    font-weight: normal;
+    margin: 0px;
+    text-align: center;
+  }
+
+  li a {
+    color: rgb(20, 15, 15);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  form{
+    float: left;
+  }
+
+  a.navLinks{
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px 0px 20px;
+    padding: 7px;
+    text-align: center;
+
+  }
+
+  a.navLinks:hover{
+    background-color: rgb(172, 169, 169);
+    color: gray;
+    border-radius: 20px;
+  }
+
+   #section1 a:hover{
+    border-bottom: 1px solid #000;
+  }
+
+   #section1 a:hover img{
+    scale: 1.1;
+  }
+
+  input#searchInput{
+    width: 800px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  div.nav2{
+    margin: 2px;
+    display: inline;
+  }
+
+  div#divnav2{
+    /* margin-top: 40px; */
+    text-align: center;
+  }
+
+  div#main_body{
+    padding: 20px 70px 20px 70px;
+  }
+
+  li.secimg{
+    margin: 5px;
+  }
+ 
+  div#section3{
+    background-color: rgb(252, 228, 193);
+    padding: 30px 70px 30px 70px;
+  }
+
+  div#Esty{
+    text-align: center;
+    
+  }
+
+  div#Esty a{
+    color: black;
+    margin-top: 2px;
+  }
+
+  div#Esty a:hover{
+    background-color: rgb(252, 228, 193);
+  }
+
+  div#Esty_end{
+    text-align: center;
+    margin: 20px 20px 0px 20px;
+  }
+
+  button#but2{
+    text-align: center;
+    padding: 15px;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: rgb(252, 228, 193);
+    border: 2px solid black;
+  }
+
+  #section1 .secimg li{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #section1 .secimg img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+
+  #section2_shop_cat  li{
+    padding: 10px;
+    border: 1px solid #000000a2;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #section2_shop_cat  li img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 30px;
+  }
+
+  #section2_shop_cat li:hover{
+    box-shadow: 0 0 20px #666666;
+  }
+
+  #Esty_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  input{
+    border: none;
+  }
+
+  *:focus {
+    outline: none;
+  }
+
+  #nav form{
+    border: 1px solid black;
+    border-radius: 20px;
+    height:45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #nav form button{
+    background-color: #F1641E !important;
+    height: 100%;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    color: aliceblue;
+  }
+
+  #nav .main{
+    font-size: 35px;
+    font-weight: bold;
+    color: #F1641E;
+  }
+
+  #section4 form{
+    border-radius: 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center; 
+    margin-left: 500px;
+    padding: 0px;
+  }
+
+  #section4 form button{
+    border: none;
+    color: black; 
+    background-color: white;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  div#section4{
+    background-color: rgb(151, 215, 239);
+    height: 170px;
+    text-align: center;
+  }
+
+  div#section4 h3{
+    margin: 0px;
+    padding: 40px 0px 15px 0px;
+  }
+
+  div#section4 form input#emailInput{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px 5px 5px 0px;
+    padding: 15px;
+  }
+
+  div#sec5_1{
+    background-color: #3b67d9;
+  }
+
+  div#sec5_1 h3{
+    margin: 0px;
+    padding: 30px 0px 30px 0px;
+    color: white;
+    text-align: center;
+  }
+
+  div#sec5_2{
+    display: flex;
+    background-color: #3140AF;
+    padding-left: 70px;
+    gap: 70px;
+  }
+
+  div#sec5_buttons{
+    background-color: #122868;
+    padding: 18px 36px;
+    height: 40%;
+    width: 25%;
+    text-align: center;
+  }
+
+  div#abut{
+    margin: 60px auto; 
+    padding: 0 30px;
+  }
+
+  #sec5_buttons button{
+    display: block;
+  }
+
+  #sec5_buttons a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 6px;
+  }
+
+  #sec5_buttons #but1{
+    padding: 10px 20px 10px 10px;
+    background-color: #F1641E;
+    border: none;
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+    margin: 10px 0px 15px 70px;
+  }
+
+  #sec5_buttons #but11{
+    margin-left: -7px;
+    background-color: #3140AF;
+    border: none;
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+  }
+
+.skills_content{
+    padding: 0px 20px 0px 0px;
+  } 
+
+  h5{
+    padding: 0px;
+    margin: 0px;
+    font-weight:normal;
+    color: white;
+    text-decoration: none;
+  }
+
+  .thead{
+    font-weight: bold;
+  }
+
+  .skills_content a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .skills_content a:hover{
+    text-decoration: underline;
+    color: white;
+  }
